@@ -1,29 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vasilispanagiotopoulos/dotnet-webapi/dotnet-webapi.csproj": {}
+    "C:\\r\\dotnet-webapi\\dotnet-webapi.csproj": {}
   },
   "projects": {
-    "/Users/vasilispanagiotopoulos/dotnet-webapi/dotnet-webapi.csproj": {
+    "C:\\r\\dotnet-webapi\\dotnet-webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vasilispanagiotopoulos/dotnet-webapi/dotnet-webapi.csproj",
+        "projectUniqueName": "C:\\r\\dotnet-webapi\\dotnet-webapi.csproj",
         "projectName": "dotnet-webapi",
-        "projectPath": "/Users/vasilispanagiotopoulos/dotnet-webapi/dotnet-webapi.csproj",
-        "packagesPath": "/Users/vasilispanagiotopoulos/.nuget/packages/",
-        "outputPath": "/Users/vasilispanagiotopoulos/dotnet-webapi/obj/",
+        "projectPath": "C:\\r\\dotnet-webapi\\dotnet-webapi.csproj",
+        "packagesPath": "C:\\Users\\Kosmas\\.nuget\\packages\\",
+        "outputPath": "C:\\r\\dotnet-webapi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/vasilispanagiotopoulos/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Kosmas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.416/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
