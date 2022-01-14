@@ -37,6 +37,10 @@ namespace dotnet_webapi
             }
 
             app.UseRouting();
+            app.UseCors(corsPolicyBuilder =>
+                corsPolicyBuilder.WithOrigins("http://localhost:4200")
+                .AllowAnyMethod()
+                .AllowAnyHeader());
 
             app.UseAuthorization();
 
